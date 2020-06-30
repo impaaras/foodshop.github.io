@@ -1,0 +1,57 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+	body{
+	margin: 0;
+	padding: 0;
+	background:  url(../s1.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+
+}	
+input {
+	margin-bottom: 2rem;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="Password"]
+{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	height: 20px;
+}
+
+.loginbox input[type="text"], input["type="Password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 41px;
+	color: white;
+	font-size: 16px;
+
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px 
+	
+}
+ div{
+ 	margin: 300px;
+ } 
+ @viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport{
+	width: extend-to-zoom;
+	zoom:1.0;
+}
